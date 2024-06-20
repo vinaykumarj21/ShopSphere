@@ -32,7 +32,7 @@ public class SearchProductService {
         }
         for(int i=1;i<sortParamLists.size();i++){
             if(sortParamLists.get(i).getSortType().equals(SortType.ASC)){
-                sort=sort.and(Sort.by(sortParamLists.get(0).getParamName()));
+                sort=sort.and(Sort.by(sortParamLists.get(i).getParamName()));
             }else{
                 sort=sort.and(Sort.by(sortParamLists.get(i).getParamName()).descending());
             }
