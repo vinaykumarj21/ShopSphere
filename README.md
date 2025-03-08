@@ -23,5 +23,8 @@ Email Notification Service
 
 Service Discovery Eureka client
 
+## Microservices Architectural Daigram
+![Architecture Diagram](https://github.com/vinaykumarj21/ShopSphere/blob/main/ShopsphereArchitecture.png)
+
 ## Tools and Frameworks used :
     SpringBoot , SpringCloud , SpringSecurity , MySQL , Hibernate , JPA , Redis , Razorpay Payment Gateway , JUnit , Kafka 
